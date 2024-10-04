@@ -145,3 +145,6 @@ EMAIL_HOST = read_file(r'E:\\projecs\\email_host.txt')
 EMAIL_HOST_PASSWORD = read_file(r'E:\\projecs\\email_host_password.txt')
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+STATIC_ROOT = BASE_DIR / 'static'

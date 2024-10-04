@@ -14,6 +14,7 @@ env/
 db.sqlite3
 media/
 staticfiles/
+static/
 
 # IDEs
 .vscode/
@@ -24,3 +25,8 @@ staticfiles/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+*.pdf
+*.log
+
+**/js/*.js
